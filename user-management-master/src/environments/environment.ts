@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  apiUrl: 'https://localhost:3000',
+  apiUrl: 'http://localhost:3000',
   userRoles: ['Banned', 'Customer', 'Admin', 'Super Admin'],
 };
 
