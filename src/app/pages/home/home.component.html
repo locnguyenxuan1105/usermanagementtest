@@ -93,24 +93,5 @@
       <li>User ids gererated with uuid</li>
       <li>concurrently used to run multiple script commands in same time</li>
     </ul>
-    <h2>TO DO</h2>
-    <ul>
-      <li>NGRX should be use to state managament</li>
-      <li>
-        Usualy i use <code>toPromise()</code> for converting observables to
-        promise then use in async functions with await. I think it make codes
-        more readable and avoid problems like cold observale and unsubscribe.
-        Now <code>toPromise()</code> is depraced, need to find new method
-        instead of it.
-      </li>
-    </ul>
-    <h2>Known Issues</h2>
-    <ul>
-      <li>
-        When Super Admin change its account role to Admin still can use Super
-        Admin privileges. To fix this issue should be disabled role input on
-        user form if current user is same.
-      </li>
-    </ul>
   </mat-card-content>
 </mat-card>
